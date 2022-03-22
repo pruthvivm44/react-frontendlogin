@@ -21,7 +21,7 @@ const{ handleChange,values,handleSubmit,errors}=UseForm(validate);
                     
                     <input 
                     type="password" name="password" placeholder="Password" id="password" value={values.password} onChange={handleChange} />
-                    <p className="message center">Don't have an account ? <a href="/Email">Create now</a></p>
+                    <p className="message center">Don't have an account ? <Link to= '/Email'>Create now </Link></p>
                     {errors.password && <p>{errors.password}</p> }
                      
                      {/* <div>

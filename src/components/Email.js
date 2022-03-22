@@ -27,7 +27,7 @@ const Email=()=> {
         <h6 className="center">-------------------------  OR  -------------------------</h6>
         <p></p>
         <div className="center">
-        <button className="green darken-4"><a href="/Otp">Login with OTP</a></button>
+        <button className="green darken-4"><Link to="/Otp">Login with OTP</Link></button>
         </div>
         <div className="center">
         <p>Don't have an account ? <a href="/"> Register</a></p>
